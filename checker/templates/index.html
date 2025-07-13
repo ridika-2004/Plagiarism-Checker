@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Plagiarism Checker</title></head>
+<body>
+  <h2>Paste text to check plagiarism</h2>
+  <form method="post">{% csrf_token %}
+    <textarea name="text" rows="10" cols="60"></textarea><br><br>
+    <button type="submit">Check</button>
+  </form>
+  {% if result %}
+    <h3>Report:</h3><pre>{{ result }}</pre>
+  {% endif %}
+</body>
+</html>
