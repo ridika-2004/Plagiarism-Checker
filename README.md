@@ -79,6 +79,11 @@ python manage.py runserver
 Open your browser at `http://127.0.0.1:8000/`
 
 ## Author
-| Name          | GitHub                                         | Role      |
+
+<div align="center">
+  
+  | Name          | GitHub                                         | Role      |
 | ------------- | ---------------------------------------------- | --------- |
-| Ridika Naznin | [@ridika-2004](https://github.com/ridika-2004) | Developer |
+| Ridika Naznin | [ridika-2004](https://github.com/ridika-2004) | Backend Developer |
+
+</div>
