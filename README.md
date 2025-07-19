@@ -49,31 +49,31 @@ Perfect for educational projects or demos using Django and REST API integration.
 
 Clone the repository:
 
-```bash
-git clone https://github.com/your-username/plagiarism-checker.git
+```console
+git clone https://github.com/ridika-2004/plagiarism-checker.git
 cd plagiarism-checker
 ```
 
 Create and activate a virtual environment:
 
-```bash
+```console
 python -m venv env
 source env/bin/activate    # On Windows: .\env\Scripts\activate
 ```
 
 Install dependencies:
-```bash
+```python
 pip install -r requirements.txt
 ```
 
 Create `.env` file:
-```bash
+```python
 DJANGO_SECRET_KEY=your-secret-key
 WINSTON_API_TOKEN=your-winston-token
 ```
 
 Run the development server:
-```bash
+```python
 python manage.py runserver
 ```
 Open your browser at `http://127.0.0.1:8000/`
